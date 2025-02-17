@@ -26,12 +26,12 @@ A simple and lightweight To-Do List app built using SwiftUI. This app allows use
 
 ## Requirements
 
-- iOS 14.0 or later
-- Xcode 12.0 or later
+- iOS `14.0` or later
+- Xcode `12.0` or later
 
 ## How to Use
 
-1. Open YolooDaily app
+1. Open YolooDaily app on iPhone
 2. Tap "+" to add new task
 3. Tap task to mark as complete/incomplete
 4. Swipe left to delete task
