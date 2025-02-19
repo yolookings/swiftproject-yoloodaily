@@ -42,4 +42,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
+<p align="center">
+  <img width="200" height="150" alt="GIF" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXRucGZ3MXFpNHZkMDIzaXZwZWJxaGZidzJkb2tlbHI4anl6czU2ZCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/zINs6k7lwfawSbLOIc/giphy.gif">
+</p>
+
+<p align="center">
 Made with ❤️ using SwiftUI
+</p>
