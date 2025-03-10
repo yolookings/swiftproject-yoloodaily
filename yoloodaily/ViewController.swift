@@ -75,6 +75,7 @@ struct ContentView: View {
                 HStack {
                     TextField("Add new task", text: $newTaskTitle)
                         .textFieldStyle(RoundedBorderTextFieldStyle())
+                        .padding(8)
                     
                     Button(action: addTask) {
                         Image(systemName: "plus.circle.fill")
@@ -120,6 +121,7 @@ struct TaskRowView: View {
             Spacer()
         }
         .font(.system(size: 17))
+        .padding(.vertical, 8)
     }
 }
 
