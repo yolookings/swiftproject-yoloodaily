@@ -6,7 +6,9 @@
 //
 
 import UIKit
+import SwiftUI
 
+@main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 

@@ -65,7 +65,7 @@ class TaskStore: ObservableObject {
 
 // MARK: - Main View
 struct ContentView: View {
-    @EnvironmentObject var taskStore: TaskStore
+    @StateObject private var taskStore = TaskStore()
     @State private var newTaskTitle = ""
     
     var body: some View {
@@ -107,7 +107,7 @@ struct ContentView: View {
     }
 }
 
-// MARK: - Subview
+// MARK: - Task Row View
 struct TaskRowView: View {
     let task: Task
     
@@ -122,6 +122,14 @@ struct TaskRowView: View {
         }
         .font(.system(size: 17))
         .padding(.vertical, 8)
+    }
+}
+
+// MARK: - Preview Provider
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+            .environmentObject(TaskStore())
     }
 }
 
